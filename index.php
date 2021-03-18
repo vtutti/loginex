@@ -18,7 +18,7 @@ $user_data = check_login($con);
 <a href="logout.php"> Logout</a>
 <h1> Login for heartcheck </h1>
 <br>
-Welcome, username
+Welcome, <?php echo $user_data['user_name']; ?>
 
 
 </body>
